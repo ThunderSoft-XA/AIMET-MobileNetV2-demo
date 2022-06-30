@@ -1,0 +1,416 @@
+2022-06-29 11:58:36,382 : TorchWeightSVD - INFO - Original Model top-1 accuracy = 71.72
+2022-06-29 11:58:36,383 : TorchWeightSVD - INFO - Starting Weight SVD
+2022-06-29 12:44:48,131 : TorchWeightSVD - INFO - **********************************************************************************************
+Compressed Model Statistics
+Baseline model accuracy: 71.722000, Compressed model accuracy: 0.118000
+Compression ratio for memory=0.343998, mac=0.494655
+
+**********************************************************************************************
+
+Per-layer Stats
+    Name:features.0.0, compression-ratio: None
+    Name:features.1.conv.3, compression-ratio: None
+    Name:features.2.conv.0, compression-ratio: 0.8
+    Name:features.2.conv.6, compression-ratio: 0.9
+    Name:features.3.conv.0, compression-ratio: 0.3
+    Name:features.3.conv.6, compression-ratio: 0.7
+    Name:features.4.conv.0, compression-ratio: 0.6
+    Name:features.4.conv.6, compression-ratio: None
+    Name:features.5.conv.0, compression-ratio: 0.3
+    Name:features.5.conv.6, compression-ratio: 0.3
+    Name:features.6.conv.0, compression-ratio: 0.1
+    Name:features.6.conv.6, compression-ratio: 0.5
+    Name:features.7.conv.0, compression-ratio: 0.7
+    Name:features.7.conv.6, compression-ratio: None
+    Name:features.8.conv.0, compression-ratio: 0.1
+    Name:features.8.conv.6, compression-ratio: 0.1
+    Name:features.9.conv.0, compression-ratio: 0.1
+    Name:features.9.conv.6, compression-ratio: 0.1
+    Name:features.10.conv.0, compression-ratio: 0.1
+    Name:features.10.conv.6, compression-ratio: 0.3
+    Name:features.11.conv.0, compression-ratio: 0.5
+    Name:features.11.conv.6, compression-ratio: 0.8
+    Name:features.12.conv.0, compression-ratio: 0.1
+    Name:features.12.conv.6, compression-ratio: 0.4
+    Name:features.13.conv.0, compression-ratio: 0.1
+    Name:features.13.conv.6, compression-ratio: 0.2
+    Name:features.14.conv.0, compression-ratio: 0.3
+    Name:features.14.conv.6, compression-ratio: None
+    Name:features.15.conv.0, compression-ratio: 0.2
+    Name:features.15.conv.6, compression-ratio: 0.4
+    Name:features.16.conv.0, compression-ratio: 0.1
+    Name:features.16.conv.6, compression-ratio: 0.5
+    Name:features.17.conv.0, compression-ratio: 0.5
+    Name:features.17.conv.6, compression-ratio: 0.8
+    Name:features.18.0, compression-ratio: 0.3
+    Name:classifier, compression-ratio: 0.2
+
+**********************************************************************************************
+
+Greedy Eval Dict
+    Layer: features.0.0
+        Ratio=0.1, Eval score=45.0
+        Ratio=0.2, Eval score=45.0
+        Ratio=0.3, Eval score=45.0
+        Ratio=0.4, Eval score=45.0
+        Ratio=0.5, Eval score=45.0
+        Ratio=0.6, Eval score=45.0
+        Ratio=0.7, Eval score=57.5
+        Ratio=0.8, Eval score=57.5
+        Ratio=0.9, Eval score=57.5
+    Layer: features.1.conv.3
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=0.0
+        Ratio=0.5, Eval score=0.0
+        Ratio=0.6, Eval score=0.625
+        Ratio=0.7, Eval score=0.625
+        Ratio=0.8, Eval score=0.0
+        Ratio=0.9, Eval score=0.625
+    Layer: features.2.conv.0
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=14.375
+        Ratio=0.3, Eval score=15.0
+        Ratio=0.4, Eval score=22.5
+        Ratio=0.5, Eval score=30.625
+        Ratio=0.6, Eval score=47.5
+        Ratio=0.7, Eval score=58.75
+        Ratio=0.8, Eval score=67.5
+        Ratio=0.9, Eval score=82.5
+    Layer: features.2.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=0.0
+        Ratio=0.5, Eval score=0.0
+        Ratio=0.6, Eval score=8.75
+        Ratio=0.7, Eval score=48.125
+        Ratio=0.8, Eval score=61.25
+        Ratio=0.9, Eval score=76.25
+    Layer: features.3.conv.0
+        Ratio=0.1, Eval score=40.625
+        Ratio=0.2, Eval score=50.625
+        Ratio=0.3, Eval score=70.625
+        Ratio=0.4, Eval score=71.25
+        Ratio=0.5, Eval score=76.25
+        Ratio=0.6, Eval score=82.5
+        Ratio=0.7, Eval score=80.625
+        Ratio=0.8, Eval score=82.5
+        Ratio=0.9, Eval score=83.75
+    Layer: features.3.conv.6
+        Ratio=0.1, Eval score=10.625
+        Ratio=0.2, Eval score=17.5
+        Ratio=0.3, Eval score=15.625
+        Ratio=0.4, Eval score=28.75
+        Ratio=0.5, Eval score=40.625
+        Ratio=0.6, Eval score=53.125
+        Ratio=0.7, Eval score=69.375
+        Ratio=0.8, Eval score=79.375
+        Ratio=0.9, Eval score=72.5
+    Layer: features.4.conv.0
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.625
+        Ratio=0.3, Eval score=20.0
+        Ratio=0.4, Eval score=33.75
+        Ratio=0.5, Eval score=58.125
+        Ratio=0.6, Eval score=71.25
+        Ratio=0.7, Eval score=78.125
+        Ratio=0.8, Eval score=81.25
+        Ratio=0.9, Eval score=80.625
+    Layer: features.4.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=0.0
+        Ratio=0.5, Eval score=0.0
+        Ratio=0.6, Eval score=6.25
+        Ratio=0.7, Eval score=8.75
+        Ratio=0.8, Eval score=25.0
+        Ratio=0.9, Eval score=45.625
+    Layer: features.5.conv.0
+        Ratio=0.1, Eval score=36.875
+        Ratio=0.2, Eval score=64.375
+        Ratio=0.3, Eval score=72.5
+        Ratio=0.4, Eval score=75.625
+        Ratio=0.5, Eval score=79.375
+        Ratio=0.6, Eval score=79.375
+        Ratio=0.7, Eval score=79.375
+        Ratio=0.8, Eval score=81.25
+        Ratio=0.9, Eval score=83.125
+    Layer: features.5.conv.6
+        Ratio=0.1, Eval score=3.125
+        Ratio=0.2, Eval score=32.5
+        Ratio=0.3, Eval score=68.75
+        Ratio=0.4, Eval score=72.5
+        Ratio=0.5, Eval score=77.5
+        Ratio=0.6, Eval score=76.875
+        Ratio=0.7, Eval score=78.75
+        Ratio=0.8, Eval score=79.375
+        Ratio=0.9, Eval score=78.75
+    Layer: features.6.conv.0
+        Ratio=0.1, Eval score=75.0
+        Ratio=0.2, Eval score=81.875
+        Ratio=0.3, Eval score=80.625
+        Ratio=0.4, Eval score=81.875
+        Ratio=0.5, Eval score=82.5
+        Ratio=0.6, Eval score=82.5
+        Ratio=0.7, Eval score=81.875
+        Ratio=0.8, Eval score=83.125
+        Ratio=0.9, Eval score=81.875
+    Layer: features.6.conv.6
+        Ratio=0.1, Eval score=45.625
+        Ratio=0.2, Eval score=48.75
+        Ratio=0.3, Eval score=60.0
+        Ratio=0.4, Eval score=62.5
+        Ratio=0.5, Eval score=68.125
+        Ratio=0.6, Eval score=75.0
+        Ratio=0.7, Eval score=76.875
+        Ratio=0.8, Eval score=76.25
+        Ratio=0.9, Eval score=81.25
+    Layer: features.7.conv.0
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=11.875
+        Ratio=0.4, Eval score=23.75
+        Ratio=0.5, Eval score=44.375
+        Ratio=0.6, Eval score=60.625
+        Ratio=0.7, Eval score=69.375
+        Ratio=0.8, Eval score=73.125
+        Ratio=0.9, Eval score=78.75
+    Layer: features.7.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=0.0
+        Ratio=0.5, Eval score=0.0
+        Ratio=0.6, Eval score=0.0
+        Ratio=0.7, Eval score=2.5
+        Ratio=0.8, Eval score=51.875
+        Ratio=0.9, Eval score=65.625
+    Layer: features.8.conv.0
+        Ratio=0.1, Eval score=75.625
+        Ratio=0.2, Eval score=80.625
+        Ratio=0.3, Eval score=81.25
+        Ratio=0.4, Eval score=82.5
+        Ratio=0.5, Eval score=81.875
+        Ratio=0.6, Eval score=83.125
+        Ratio=0.7, Eval score=83.125
+        Ratio=0.8, Eval score=83.125
+        Ratio=0.9, Eval score=84.375
+    Layer: features.8.conv.6
+        Ratio=0.1, Eval score=76.875
+        Ratio=0.2, Eval score=77.5
+        Ratio=0.3, Eval score=80.625
+        Ratio=0.4, Eval score=83.125
+        Ratio=0.5, Eval score=84.375
+        Ratio=0.6, Eval score=84.375
+        Ratio=0.7, Eval score=83.125
+        Ratio=0.8, Eval score=83.75
+        Ratio=0.9, Eval score=83.75
+    Layer: features.9.conv.0
+        Ratio=0.1, Eval score=83.125
+        Ratio=0.2, Eval score=83.75
+        Ratio=0.3, Eval score=84.375
+        Ratio=0.4, Eval score=85.0
+        Ratio=0.5, Eval score=85.0
+        Ratio=0.6, Eval score=84.375
+        Ratio=0.7, Eval score=84.375
+        Ratio=0.8, Eval score=83.125
+        Ratio=0.9, Eval score=83.75
+    Layer: features.9.conv.6
+        Ratio=0.1, Eval score=81.875
+        Ratio=0.2, Eval score=78.75
+        Ratio=0.3, Eval score=78.75
+        Ratio=0.4, Eval score=78.125
+        Ratio=0.5, Eval score=81.875
+        Ratio=0.6, Eval score=80.625
+        Ratio=0.7, Eval score=83.75
+        Ratio=0.8, Eval score=83.75
+        Ratio=0.9, Eval score=82.5
+    Layer: features.10.conv.0
+        Ratio=0.1, Eval score=81.875
+        Ratio=0.2, Eval score=82.5
+        Ratio=0.3, Eval score=81.875
+        Ratio=0.4, Eval score=83.125
+        Ratio=0.5, Eval score=83.75
+        Ratio=0.6, Eval score=83.125
+        Ratio=0.7, Eval score=80.625
+        Ratio=0.8, Eval score=81.25
+        Ratio=0.9, Eval score=81.875
+    Layer: features.10.conv.6
+        Ratio=0.1, Eval score=61.875
+        Ratio=0.2, Eval score=62.5
+        Ratio=0.3, Eval score=70.625
+        Ratio=0.4, Eval score=79.375
+        Ratio=0.5, Eval score=79.375
+        Ratio=0.6, Eval score=81.875
+        Ratio=0.7, Eval score=82.5
+        Ratio=0.8, Eval score=83.125
+        Ratio=0.9, Eval score=84.375
+    Layer: features.11.conv.0
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=6.25
+        Ratio=0.3, Eval score=38.75
+        Ratio=0.4, Eval score=61.25
+        Ratio=0.5, Eval score=73.75
+        Ratio=0.6, Eval score=80.625
+        Ratio=0.7, Eval score=85.625
+        Ratio=0.8, Eval score=85.625
+        Ratio=0.9, Eval score=85.0
+    Layer: features.11.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=5.625
+        Ratio=0.5, Eval score=10.625
+        Ratio=0.6, Eval score=26.875
+        Ratio=0.7, Eval score=54.375
+        Ratio=0.8, Eval score=69.375
+        Ratio=0.9, Eval score=80.0
+    Layer: features.12.conv.0
+        Ratio=0.1, Eval score=75.0
+        Ratio=0.2, Eval score=80.0
+        Ratio=0.3, Eval score=79.375
+        Ratio=0.4, Eval score=81.875
+        Ratio=0.5, Eval score=83.75
+        Ratio=0.6, Eval score=81.25
+        Ratio=0.7, Eval score=82.5
+        Ratio=0.8, Eval score=82.5
+        Ratio=0.9, Eval score=83.125
+    Layer: features.12.conv.6
+        Ratio=0.1, Eval score=24.375
+        Ratio=0.2, Eval score=57.5
+        Ratio=0.3, Eval score=58.125
+        Ratio=0.4, Eval score=70.0
+        Ratio=0.5, Eval score=70.0
+        Ratio=0.6, Eval score=73.75
+        Ratio=0.7, Eval score=79.375
+        Ratio=0.8, Eval score=80.625
+        Ratio=0.9, Eval score=80.625
+    Layer: features.13.conv.0
+        Ratio=0.1, Eval score=79.375
+        Ratio=0.2, Eval score=81.875
+        Ratio=0.3, Eval score=84.375
+        Ratio=0.4, Eval score=85.625
+        Ratio=0.5, Eval score=83.75
+        Ratio=0.6, Eval score=81.875
+        Ratio=0.7, Eval score=82.5
+        Ratio=0.8, Eval score=84.375
+        Ratio=0.9, Eval score=81.875
+    Layer: features.13.conv.6
+        Ratio=0.1, Eval score=65.625
+        Ratio=0.2, Eval score=68.75
+        Ratio=0.3, Eval score=69.375
+        Ratio=0.4, Eval score=70.0
+        Ratio=0.5, Eval score=83.75
+        Ratio=0.6, Eval score=86.875
+        Ratio=0.7, Eval score=83.125
+        Ratio=0.8, Eval score=85.0
+        Ratio=0.9, Eval score=85.0
+    Layer: features.14.conv.0
+        Ratio=0.1, Eval score=5.0
+        Ratio=0.2, Eval score=49.375
+        Ratio=0.3, Eval score=70.0
+        Ratio=0.4, Eval score=76.875
+        Ratio=0.5, Eval score=79.375
+        Ratio=0.6, Eval score=83.125
+        Ratio=0.7, Eval score=83.75
+        Ratio=0.8, Eval score=81.25
+        Ratio=0.9, Eval score=85.0
+    Layer: features.14.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=0.0
+        Ratio=0.5, Eval score=10.625
+        Ratio=0.6, Eval score=7.5
+        Ratio=0.7, Eval score=9.375
+        Ratio=0.8, Eval score=21.875
+        Ratio=0.9, Eval score=45.0
+    Layer: features.15.conv.0
+        Ratio=0.1, Eval score=66.25
+        Ratio=0.2, Eval score=77.5
+        Ratio=0.3, Eval score=80.0
+        Ratio=0.4, Eval score=81.875
+        Ratio=0.5, Eval score=81.25
+        Ratio=0.6, Eval score=82.5
+        Ratio=0.7, Eval score=83.125
+        Ratio=0.8, Eval score=83.75
+        Ratio=0.9, Eval score=83.75
+    Layer: features.15.conv.6
+        Ratio=0.1, Eval score=41.875
+        Ratio=0.2, Eval score=56.875
+        Ratio=0.3, Eval score=63.75
+        Ratio=0.4, Eval score=77.5
+        Ratio=0.5, Eval score=85.0
+        Ratio=0.6, Eval score=81.25
+        Ratio=0.7, Eval score=78.75
+        Ratio=0.8, Eval score=77.5
+        Ratio=0.9, Eval score=80.625
+    Layer: features.16.conv.0
+        Ratio=0.1, Eval score=70.0
+        Ratio=0.2, Eval score=73.125
+        Ratio=0.3, Eval score=73.75
+        Ratio=0.4, Eval score=78.125
+        Ratio=0.5, Eval score=80.625
+        Ratio=0.6, Eval score=83.125
+        Ratio=0.7, Eval score=82.5
+        Ratio=0.8, Eval score=83.125
+        Ratio=0.9, Eval score=83.75
+    Layer: features.16.conv.6
+        Ratio=0.1, Eval score=48.125
+        Ratio=0.2, Eval score=49.375
+        Ratio=0.3, Eval score=57.5
+        Ratio=0.4, Eval score=66.25
+        Ratio=0.5, Eval score=70.625
+        Ratio=0.6, Eval score=78.75
+        Ratio=0.7, Eval score=78.75
+        Ratio=0.8, Eval score=78.75
+        Ratio=0.9, Eval score=80.625
+    Layer: features.17.conv.0
+        Ratio=0.1, Eval score=1.875
+        Ratio=0.2, Eval score=37.5
+        Ratio=0.3, Eval score=55.0
+        Ratio=0.4, Eval score=63.125
+        Ratio=0.5, Eval score=68.125
+        Ratio=0.6, Eval score=78.125
+        Ratio=0.7, Eval score=78.125
+        Ratio=0.8, Eval score=79.375
+        Ratio=0.9, Eval score=80.625
+    Layer: features.17.conv.6
+        Ratio=0.1, Eval score=0.0
+        Ratio=0.2, Eval score=0.0
+        Ratio=0.3, Eval score=0.0
+        Ratio=0.4, Eval score=14.375
+        Ratio=0.5, Eval score=37.5
+        Ratio=0.6, Eval score=37.5
+        Ratio=0.7, Eval score=56.875
+        Ratio=0.8, Eval score=71.875
+        Ratio=0.9, Eval score=78.75
+    Layer: features.18.0
+        Ratio=0.1, Eval score=39.375
+        Ratio=0.2, Eval score=56.875
+        Ratio=0.3, Eval score=76.875
+        Ratio=0.4, Eval score=69.375
+        Ratio=0.5, Eval score=81.875
+        Ratio=0.6, Eval score=82.5
+        Ratio=0.7, Eval score=84.375
+        Ratio=0.8, Eval score=85.0
+        Ratio=0.9, Eval score=84.375
+    Layer: classifier
+        Ratio=0.1, Eval score=57.5
+        Ratio=0.2, Eval score=73.125
+        Ratio=0.3, Eval score=79.375
+        Ratio=0.4, Eval score=80.625
+        Ratio=0.5, Eval score=80.0
+        Ratio=0.6, Eval score=81.25
+        Ratio=0.7, Eval score=81.25
+        Ratio=0.8, Eval score=81.25
+        Ratio=0.9, Eval score=81.875
+
+**********************************************************************************************
+
+2022-06-29 12:59:35,459 : TorchWeightSVD - INFO - Compressed Model top-1 accuracy = 0.12
+2022-06-29 12:59:35,462 : TorchWeightSVD - INFO - Weight SVD Complete
+2022-06-29 12:59:35,463 : TorchWeightSVD - INFO - Starting Model Finetuning
