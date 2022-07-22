@@ -12,6 +12,9 @@ Due to the problem of my network and host resources, I installed the 1.21.0.
 AIMET github project :
 https://github.com/quic/aimet
 
+Please copy the following files from the AIMET repository: 
+File 1 from <link> to /AIMET/Utils
+
 
 ## Prepare the data set and torch mobileNetV2
 The Torch version of  mobileNetV2 comes from the following open source projects:
