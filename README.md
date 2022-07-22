@@ -12,9 +12,13 @@ Due to the problem of my network and host resources, I installed the 1.21.0.
 AIMET github project :
 https://github.com/quic/aimet
 
-Please copy the following files from the AIMET repository: 
-File 1 from <link> to /AIMET/Utils
+### Source code from AIMET project
+To compress the model using AIMET, I referred to AIMET project sources such as ImageNet DataLoader and weight_svd.py.
 
+In order to execute this project, so you need to do the following:
+1. Copy all ImageNet DataLoader files in the https://github.com/quic/aimet/tree/develop/Examples/torch/utils directory to utils directory of the current project.
+2. Copy weight_svd.py file in the https://github.com/quic/aimet/tree/develop/Examples/torch/compression directory to compression directory of  the current project.
+3. Copy all ImageNet DataLoader config files in the https://github.com/quic/aimet/tree/develop/Examples/common directory to common directory of  the current project.
 
 ## Prepare the data set and torch mobileNetV2
 The Torch version of  mobileNetV2 comes from the following open source projects:
